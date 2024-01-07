@@ -1,0 +1,39 @@
+@media screen and (max-width: 600px) {
+  nav {
+    display: none;
+  }
+  body {
+    height: 100%;
+    width: 100%;
+  }
+  .home {
+    display: inline;
+    border-bottom: 5px solid white;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    font-size: 1.2rem;
+  }
+
+  .inside {
+    width: 95%;
+    height: 70vh;
+    display: flex;
+    margin: auto;
+    margin-top: 2rem;
+    align-items: center;
+    flex-direction: column;
+  }
+  .first-sec {
+    height: 100%;
+    width: 95%;
+  }
+  .second-sec {
+    height: 100%;
+    margin-top: 5px;
+    width: 95%;
+  }
+  .inside {
+    width: 95%;
+    height: 100vh;
+  }
+}
